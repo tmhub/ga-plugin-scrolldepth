@@ -1,0 +1,16 @@
+{
+    "name": "tm/ga-plugin-scrolldepth",
+    "type": "magento-module",
+    "homepage": "https://github.com/tmhub/ga-plugin-scrolldepth",
+    "license": "OSL-3.0",
+    "description": "Google Analytics plugin Scroll Depth",
+    "authors": [
+        {
+            "name": "Templates-Master Team",
+            "email": "support@templates-master.com"
+        }
+    ],
+    "require": {
+        "tm/core": "*"
+    }
+}
