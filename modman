@@ -1,1 +1,2 @@
-app\etc\modules\TM_GaPluginScrolldepth.xml                           app\etc\modules\TM_GaPluginScrolldepth.xml
+app/code/community/TM/GaPluginScrolldepth/                           app/code/community/TM/GaPluginScrolldepth/
+app/etc/modules/TM_GaPluginScrolldepth.xml                           app/etc/modules/TM_GaPluginScrolldepth.xml
