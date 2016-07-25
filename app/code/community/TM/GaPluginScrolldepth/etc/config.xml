@@ -6,4 +6,14 @@
             <version>0.9.0</version>
         </TM_GaPluginScrolldepth>
     </modules>
+
+    <global>
+        <helpers>
+            <tm_gapluginscrolldepth>
+                <class>TM_GaPluginScrolldepth_Helper</class>
+            </tm_gapluginscrolldepth>
+        </helpers>
+    </global>
+
+
 </config>
