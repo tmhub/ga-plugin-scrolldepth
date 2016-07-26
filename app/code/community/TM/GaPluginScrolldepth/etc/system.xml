@@ -26,6 +26,15 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </enabled>
+                        <options translate="label">
+                            <label>Plugin options</label>
+                            <frontend_model>tm_gapluginscrolldepth/adminhtml_config_options</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </options>
                     </fields>
                 </scrolldepth>
             </groups>

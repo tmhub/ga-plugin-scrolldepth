@@ -1,2 +1,5 @@
-app/code/community/TM/GaPluginScrolldepth/                           app/code/community/TM/GaPluginScrolldepth/
-app/etc/modules/TM_GaPluginScrolldepth.xml                           app/etc/modules/TM_GaPluginScrolldepth.xml
+app/code/community/TM/GaPluginScrolldepth/                              app/code/community/TM/GaPluginScrolldepth/
+app/design/frontend/base/default/layout/tm/gapluginscrolldepth.xml      app/design/frontend/base/default/layout/tm/gapluginscrolldepth.xml
+app/design/frontend/base/default/template/tm/ga_scrolldepth_init.phtml  app/design/frontend/base/default/template/tm/ga_scrolldepth_init.phtml
+app/etc/modules/TM_GaPluginScrolldepth.xml                              app/etc/modules/TM_GaPluginScrolldepth.xml
+js/tm/lib/robflaherty                                                   js/tm/lib/robflaherty

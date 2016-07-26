@@ -8,6 +8,11 @@
     </modules>
 
     <global>
+        <blocks>
+            <tm_gapluginscrolldepth>
+                <class>TM_GaPluginScrolldepth_Block</class>
+            </tm_gapluginscrolldepth>
+        </blocks>
         <helpers>
             <tm_gapluginscrolldepth>
                 <class>TM_GaPluginScrolldepth_Helper</class>
@@ -15,5 +20,14 @@
         </helpers>
     </global>
 
+    <frontend>
+        <layout>
+            <updates>
+                <tm_gapluginscrolldepth module="TM_GaPluginScrolldepth">
+                    <file>tm/gapluginscrolldepth.xml</file>
+                </tm_gapluginscrolldepth>
+            </updates>
+        </layout>
+    </frontend>
 
 </config>

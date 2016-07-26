@@ -1,0 +1,18 @@
+<?php
+    if (!Mage::getStoreConfig('tm_googleanalytics/scrolldepth/enabled')) {
+        return;
+    }
+    $options = unserialize(Mage::getStoreConfig('tm_googleanalytics/scrolldepth/options'));
+    $optionsString = '';
+    if (is_array($options)) {
+        foreach ($options as $o) {
+            $optionsString .= $o['name'] . ': ' . $o['value'] . ', ';
+        }
+        $optionsString = '{' . rtrim($optionsString, ', ') . '}';
+    }
+?>
+<script type="text/javascript">
+    jQuery(function() {
+      jQuery.scrollDepth(<?php echo $optionsString?>);
+    });
+</script>
