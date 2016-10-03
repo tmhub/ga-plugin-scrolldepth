@@ -13,6 +13,7 @@
                 <scrolldepth translate="label comment" module="tm_gapluginscrolldepth">
                     <label>Scroll Depth plugin</label>
                     <comment><![CDATA[A Google Analytics plugin for measuring page scrolling. You can read more about this plugin at <a href='http://scrolldepth.parsnip.io/'>scrolldepth.parsnip.io</a>.]]></comment>
+                    <sort_order>100</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
