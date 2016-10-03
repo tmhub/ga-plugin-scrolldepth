@@ -30,4 +30,12 @@
         </layout>
     </frontend>
 
+    <default>
+        <tmcore>
+            <jslibs>
+                <jquery>1</jquery>
+            </jslibs>
+        </tmcore>
+    </default>
+
 </config>
